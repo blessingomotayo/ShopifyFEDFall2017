@@ -1,0 +1,89 @@
+  /**
+By: Blessing Omotayo; blessing.omotayo@carleton.ca
+**/
+/*$text-color: #30373B;*/
+/*$success-color: #7AB55C;*/
+/*$error-color: #C23628;*/
+/*$border-color: #A7A7A7;*/
+
+/*$body-font-size: 13px;*/
+/*$title-font-size: 32px;*/
+/*$subtitle-font-size: 20px;*/
+/*$form-font-size: 16px;*/
+
+/*Title String*/
+h1.title {
+  font-size: 32px;
+  text-align: center;
+  text-color: #30373B;
+}
+
+.underlineTitle { 
+  width: 25px;
+  height: 2px;
+  margin: .5em auto .0em;
+  background-color: #7AB55C;
+}
+
+/*Sub Title String*/
+p.subTitle {
+  font-size: 20px;
+  text-align: center;
+  text-color: #30373B;
+}
+
+/*Email string*/
+p.email {
+  font-size: 13px;
+  margin-left: -490px;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*Form*/
+div.centerForm {
+  text-align: center;
+}
+
+input.applyBorder {
+  border-color: #A7A7A7;
+  border-style: solid;
+  border-width: 1px;
+  border-left: -10px;
+  border-radius: 2px;
+  border-spacing: 5px 50px 0px
+  50px;
+}
+
+input.emailForm {
+  font-size: 16px;
+  text-color: #A7A7A7;
+  
+  width: 400px;
+  height: 45px;
+  padding: 15px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box; 
+}
+
+input.btnSubmit {
+  margin-left: -7px;
+  font-size: 16px;
+  color: white;
+  background-color: #7AB55C;
+  
+  width: 140px;
+  height: 45px;
+  padding: 5px;
+}
+
+/*Error string */
+p.errorEmail {
+  font-size: 13px;
+  margin-left: -340px;
+  text-align: center;
+  color: #C23628; 
+}
